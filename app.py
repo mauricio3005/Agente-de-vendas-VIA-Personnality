@@ -21,7 +21,7 @@ redis_client = redis.from_url(redis_url, decode_responses=True)
 # --- 3. LOAD THE KNOWLEDGE BASE (DONE ONCE AT STARTUP) ---
 try:
     # Note the path correction to use os.path.join for compatibility
-    instructions_path = os.path.join("banco de dados", "Instructions.txt")
+    instructions_path = os.path.join("Banco de dados", "Instructions.txt")
     with open(instructions_path, "r", encoding="utf-8") as f:
         instrucao_sistema = f.read()
 except FileNotFoundError:
@@ -81,3 +81,4 @@ def webhook():
 # --- 5. COMMAND TO START THE SERVER ---
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+
