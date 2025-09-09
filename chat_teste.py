@@ -78,13 +78,7 @@ if prompt := st.chat_input("Digite sua solicitação de seguro aqui..."):
         #     st.info("ℹ️ *Gatilho de Cotação foi detectado!*")
 ### **Passo 3: Como Rodar o Chat de Teste**
 
-1.  **Abra o terminal** na pasta do seu projeto (`bot_seguros_api`).
-2.  **Instale as bibliotecas** (caso ainda não tenha feito para este projeto):
-    ```bash
-    pip install streamlit requests
-    ```
-3.  **Execute o comando:**
-    ```bash
-    streamlit run chat_teste.py
+
     
+
 
