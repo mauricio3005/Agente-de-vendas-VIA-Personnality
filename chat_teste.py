@@ -76,10 +76,6 @@ if prompt := st.chat_input("Digite sua solicitação de seguro aqui..."):
         # gatilho_cotacao = resposta_api.get("gatilho_cotacao", False)
         # if gatilho_cotacao:
         #     st.info("ℹ️ *Gatilho de Cotação foi detectado!*")
-```
-
----
-
 ### **Passo 3: Como Rodar o Chat de Teste**
 
 1.  **Abra o terminal** na pasta do seu projeto (`bot_seguros_api`).
@@ -91,3 +87,4 @@ if prompt := st.chat_input("Digite sua solicitação de seguro aqui..."):
     ```bash
     streamlit run chat_teste.py
     
+
